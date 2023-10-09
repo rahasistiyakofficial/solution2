@@ -10,7 +10,7 @@ I enter a while loop that continues until either the end of the pattern is reach
 
 Inside the loop, I compare each character of the text and the pattern at the current position. If they match, I increment $j and continue comparing the next characters.
 
-If the loop completes without any character mismatches (i.e., $j equals the length of the pattern), I have found a complete occurrence of the pattern in the text, so I increment the count variable.
+If the loop completes without any character mismatches ( $j equals the length of the pattern), I have found a complete occurrence of the pattern in the text, so I increment the count variable.
 
 Finally, I return the count, which represents the total number of occurrences of the pattern in the text.
 
